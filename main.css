@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+.clear{
+    clear: both;
+}
+#page{
+    height: 1500px;
+    width: 100%;
+    /* background-color:green; */
+    text-align: center;
+}
+
+#page .menu{
+    display: block;
+    z-index: 1;
+    background-color: #000;
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+ul{
+
+}
+
+ul li{
+    float: left;
+    list-style-type: none;
+}
+
+ul li a{
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 0 30px;
+    /* background-color: #ccc; */
+    line-height: 50px ;
+    text-transform: uppercase;
+}
+
+ul li:hover a{
+   opacity: 0.5;
+}
+
+#slider{
+    padding-top: 50%;
+    background: url(img/clb.jpg) top center / cover no-repeat;
+    margin-bottom: 56px;
+}
+
+/* .slider .slider-img{
+    width: 100%;
+} */
+
+#page .box{
+    /* height: 300px; */
+    width: 100%;
+    /* background-color: blue; */
+}
+
+.box-center{
+    margin: 10px 0;
+}
+.box-item{
+    width: 25%;
+    /* background-color: rgb(156, 235, 77); */
+    height: 400px;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box-item-center{
+    /* margin: 0 5%; */
+    /* background-color: green; */
+}
+.box-item-right{
+    /* background-color: #ccc; */
+}
+
+.img-box{
+    overflow: hidden;
+    margin-bottom: 20px;
+    /* border-radius: 10px; */
+    position: relative;
+    background-color: #000;
+}
+
+.img-box, 
+.img-box-info{
+    width: 100%;
+    height: 100%;
+}
+
+.img-box-info{
+    text-align: center;
+    padding-top: 230px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: none;
+    box-sizing: border-box;
+}
+
+p{
+    color:  white;
+    line-height: 1.6;
+}
+
+a{
+    color: blue;
+}
+
+
+img{
+    width: 130%;
+    height: auto;
+    transition: all 0.3s linear;
+    /* opacity: 0.5; */
+
+}
+
+
+.img-box:hover .img-box-info{
+    display: block;
+}
+.img-box:hover img{
+    transform: scale(1.05);
+    opacity: 0.3;
+}
+
+/* đăng ký */
+
+form{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+label{
+    font-size: 16px;
+}
+input{
+    margin-right: 10px;
+    min-width: 150px;
+    padding: 7px;
+}
+
+.button{
+    margin-top: 10px;
+    background: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-right: 24px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.button:hover{
+    opacity: 0.7;
+}
+audio{
+    display: block;
+    width: 70%;
+    height: 30px;
+    margin: 10px auto;
+}
+
+#map{
+    padding-top: 50%;
+    background: url(img/map.jpg) top center / cover no-repeat;
+    /* margin-bottom: 56px; */
+}
